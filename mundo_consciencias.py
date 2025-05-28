@@ -981,23 +981,4 @@ Na Pele e na Consciência não entrega respostas prontas. Ele te entrega a pergu
         self.menu_app.show_perfil_personalizado()  # Mostra a seção de perfil no menu
 
 
-# Exemplo de como você iniciaria a aplicação (para testes)
-if __name__ == "__main__":
-    root = tk.Tk()
-    root.title("Mundo de Consciência: O Julgamento de Elias")
-    root.geometry("800x700")
-    root.resizable(False, False)  # Evita que a janela seja redimensionada
 
-    content_frame = tk.Frame(root)
-    content_frame.pack(fill=tk.BOTH, expand=True)
-
-    # Aqui, para testar sem o 'menuapp.py', passamos um dicionário que simula o user_data
-    # Você pode adicionar um 'profile' vazio aqui para testes
-    test_user_data = {"profile": None}
-    game = MundoConscienciaElias(root, test_user_data, content_frame)
-    game.show_story_screen()  # Inicia o jogo mostrando a introdução
-
-    root.mainloop()
-
-    # Após o jogo terminar (se rodado via if __name__ == "__main__":), você pode ver o perfil
-    # print(test_user_data.get("profile"))
