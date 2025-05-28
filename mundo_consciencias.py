@@ -619,7 +619,7 @@ class MundoConscienciaElias:
 
    
 
-    # ... (o restante dos métodos permanecem iguais até show_final_outcome)
+   
 
     def show_final_outcome(self):
         self.clear_content_frame()
