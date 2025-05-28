@@ -1,5 +1,6 @@
 # NA-PELE-E-NA-CONSCI-NCIA---PROJETO
 🧩 Introdução
+
 Na Pele e na Consciência é um simulador interativo que apresenta dilemas éticos e propõe ao usuário tomar decisões que influenciam diretamente o desenrolar da narrativa. O projeto foi desenvolvido em Python com uma interface gráfica feita em Tkinter, oferecendo uma experiência envolvente, intuitiva e educativa.
 
 Esse sistema foi pensado para promover empatia, reflexão crítica e responsabilidade social, sendo ideal para treinamentos, projetos educacionais ou simplesmente para quem deseja mergulhar em decisões morais complexas de forma interativa.
