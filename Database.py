@@ -104,9 +104,4 @@ class Database:
 
 if __name__ == '__main__':
     db = Database()
-    # Exemplo de uso (apenas para teste)
-    # db.cursor.execute("INSERT INTO usuarios (nome, apelido, email, senha) VALUES (?, ?, ?, ?)",
-    #                   ("Teste User", "testeuser", "teste@gmail.com", "123456"))
-    # db.conn.commit()
-    # print(db.get_user_data(1))
-    # db.close()
+  
